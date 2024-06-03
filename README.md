@@ -19,6 +19,12 @@ Predict the Leaf Area Index (LAI) on $256 \times 256$ images at time t, using Se
 data at time t, t-1, and t-2, as well as LAI values at time t-1 and t-2. The LAI
 segmentation should follow the convention outlined in the *Prepare your data* section.
 
+![Data visualization](./assets/data.png)
+
+After the competition, our paper got accepted at the [2023 Big Data from Space (BiDS) conference](https://www.bigdatafromspace2023.org/) that took place from 6 to 9 November 2023 in Vienna, Austria. The paper is available [here](./assets/paper.pdf).
+
+Wang, C., Debouchage, A., Goldité, V., Wery, A., & Salzinger, J. (2023, November). Leveraging multi-temporal Sentinel-1 and 2 satellite data for leaf area index estimation with deep learning. In Big Data from Space 2023 (pp. 193-196). Publications Office of the European Union.
+
 ---
 
 This work, which is governed by the [MIT license](./LICENSE), is a contribution to the
@@ -185,7 +191,7 @@ and optionally weather data (see `/config/model/scandium_weather.yaml` for an ex
 
 Left: target LAI, right: predicted LAI from combined Strontium (2 models) and Scandium:
 
-![results](./assets/results.png)
+![results](./assets/results2.png)
 
 An example of "de-clouding" actual data at time t:
 
